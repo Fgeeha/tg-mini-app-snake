@@ -1,0 +1,17 @@
+[project]
+name = "tg-mini-app-snake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "python-dotenv>=1.0.1",
+    "python-telegram-bot>=21.11.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "isort>=6.0.1",
+]
